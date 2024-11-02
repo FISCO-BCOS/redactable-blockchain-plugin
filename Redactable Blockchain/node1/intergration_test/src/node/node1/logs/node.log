@@ -1,0 +1,12 @@
+2024-10-21T16:32:40.307138455+08:00 INFO intergration_test::node::node1::node1 - node1 is listening on 172.28.45.184:50001
+2024-10-21T16:32:40.307216515+08:00 INFO node::gs_tbk_scheme::setup_phase - Setup phase is starting!
+2024-10-21T16:32:41.317535605+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxySetupPhaseBroadcastMsg
+2024-10-21T16:32:41.326103058+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxySetupPhaseFinishFlag
+2024-10-21T16:32:41.326170039+08:00 INFO intergration_test::node::node1::node1 - Keygen phase is staring!
+2024-10-21T16:32:41.326182574+08:00 INFO node::gs_tbk_scheme::keygen_phase - Adapt is starting!
+2024-10-21T16:32:41.326329206+08:00 INFO node::gs_tbk_scheme::keygen_phase - sk is Secp256k1Scalar { purpose: "from_bigint", fe: Zeroizing(Some(SK(SecretKey(4c7b1497c03c3c7b06e8557b77a75d4e105d5d21ff4928e41466a24959b0ef5a)))) }
+2024-10-21T16:32:41.333259510+08:00 INFO intergration_test::node::node1::node1 - From id : 1 ,Role : Group Manager Node Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-21T16:32:41.334769302+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-21T16:32:41.334917468+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-21T16:32:41.368385958+08:00 INFO node::gs_tbk_scheme::keygen_phase - s_new_tatal is Secp256k1Scalar { purpose: "add", fe: Zeroizing(Some(SK(SecretKey(7ff34ad760b6d6e28a88a98a679ed0b6c37b41da7b207e31e8447e35ffcf84dd)))) }
+2024-10-21T16:32:41.368546888+08:00 INFO node::gs_tbk_scheme::keygen_phase - CH adapt is finished

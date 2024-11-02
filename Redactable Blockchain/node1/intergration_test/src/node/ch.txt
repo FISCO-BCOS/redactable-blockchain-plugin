@@ -1,0 +1,3 @@
+{"curve":"secp256k1","point":"026a855be8caefd2a3efbd2194de7e15e7a5d2d3cfafc69b304eee420414ba8413"}
+{"curve":"secp256k1","point":"02548bfe92df3a21a10773194c8e476c1ae26501f809e37a8dcbdb4ca612f2ff3c"}
+50def5d4018291ef5b7d1d05ad2822fbc5130bbc4ea3b82cd675ce717d77807f

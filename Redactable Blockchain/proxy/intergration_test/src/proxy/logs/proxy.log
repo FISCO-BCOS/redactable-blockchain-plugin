@@ -1,0 +1,17 @@
+2024-10-21T16:32:05.675308679+08:00 INFO intergration_test::proxy::proxy_node - Proxy_node is listening on 0.0.0.0:50000
+2024-10-21T16:32:07.593336893+08:00 INFO intergration_test::proxy::proxy_node - From Role : Group Manager Node, Get NodeToProxySetupPhaseP2PMsg
+2024-10-21T16:32:07.593495890+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 1 }
+2024-10-21T16:32:07.639770550+08:00 INFO intergration_test::proxy::proxy_node - From Role : Group Manager Node, Get NodeToProxySetupPhaseP2PMsg
+2024-10-21T16:32:07.639833471+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 2 }
+2024-10-21T16:32:07.676171948+08:00 INFO intergration_test::proxy::proxy_node - From Role : Group Manager Node, Get NodeToProxySetupPhaseP2PMsg
+2024-10-21T16:32:07.676222565+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 3 }
+2024-10-21T16:32:40.310101527+08:00 INFO intergration_test::proxy::proxy_node - From Role : Group Manager Node, Get NodeToProxySetupPhaseP2PMsg
+2024-10-21T16:32:41.310340115+08:00 INFO proxy::gs_tbk_scheme::setup_phase - Setup phase is staring!
+2024-10-21T16:32:41.315974730+08:00 INFO intergration_test::proxy::proxy_node - From id : 3, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-10-21T16:32:41.316101229+08:00 INFO intergration_test::proxy::proxy_node - From id : 1, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-10-21T16:32:41.316531261+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 1 }
+2024-10-21T16:32:41.316627732+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 2 }
+2024-10-21T16:32:41.318951974+08:00 INFO intergration_test::proxy::proxy_node - From id : 2, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-10-21T16:32:41.318988087+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 3 }
+2024-10-21T16:32:41.319750120+08:00 INFO intergration_test::proxy::proxy_node - From id : 4, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-10-21T16:32:41.319786648+08:00 INFO proxy::gs_tbk_scheme::setup_phase - Setup phase is finished!
