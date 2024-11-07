@@ -32,19 +32,7 @@
 
    1. 通过apt安装：gcc，g++，make，libgmp-dev，pari-gp，bison，libclang-dev。
 
-      `sudo apt install gcc`
-
-      `sudo apt install g++`
-
-      `sudo apt install make`
-
-      `sudo apt install libgmp-dev`
-
-      `sudo apt install pari-gp`
-
-      `sudo apt install bison`
-
-      `sudo apt install libclang-dev`
+      `sudo apt install -y gcc,g++ make libgmp-dev pari-gp bison libclang-dev`
 
 4. 相互通信，包括一个proxy节点和四个node节点分别位于test10和test6-9上，文件路径为"/fisco/Redactable-Blockchain/CH/intergration_test"，**后续流程**中直接执行目录下的start_communication.sh进行节点的相互通信。
 
